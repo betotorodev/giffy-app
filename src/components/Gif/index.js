@@ -6,7 +6,7 @@ function Gif ({ title, id, url }) {
   return (
     <div className="Gif">
       <Link to={`/gif/${id}`} className='Gif-link'>
-        <h4>{title}</h4>
+        <h5>{title}</h5>
         <img loading='lazy' alt={title} src={url} />
       </Link>
     </div>
