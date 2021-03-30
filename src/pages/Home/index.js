@@ -12,6 +12,7 @@ export default function Home() {
   const handleSubmit = useCallback(({ keyword }) => {
     // navegar a otra ruta
     pushLocation(`/search/${keyword}`)
+    console.log(path)
   }, [pushLocation])
 
   return (
